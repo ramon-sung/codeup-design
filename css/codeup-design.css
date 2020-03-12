@@ -78,3 +78,38 @@ img {
     width: 500px;
     height: 300px;
 }
+.featured-pro {
+    font-size: 40px;
+}
+.circle-d {
+    background: #E6563B;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    font-weight: bolder;
+}
+.circle-d1 {
+    background: #EB9D3A;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    font-weight: bolder;
+}
+.circle-d2 {
+    background: #7CB06C;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    font-weight: bolder;
+}
+.circle-d3 {
+    background: #00ABA9;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    font-weight: bolder;
+}
