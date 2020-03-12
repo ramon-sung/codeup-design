@@ -21,10 +21,10 @@ img {
 }
 
 /*Ramon added all below this comment to get the right text size and weight*/
-.visual-design {
-    font-size: 64px;
-    font-weight: bold;
-}
+/*.visual-design {*/
+/*    font-size: 64px;*/
+/*    font-weight: bold;*/
+/*}*/
 
 .codeup-design {
     font-size: 48px;
@@ -84,7 +84,7 @@ img {
 /*    height: auto;*/
 /*}*/
 .featured-pro {
-    font-size: 28px;
+    font-size: 12px;
 }
 .circle-d {
     background: #E6563B;
