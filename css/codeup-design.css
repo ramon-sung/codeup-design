@@ -34,10 +34,31 @@ img {
     font-size: 48px;
     font-weight: bold;
 }
-
-.design-text {
+.circle-design {
     background: #E6563B;
-    border: 2px solid white;
-    height: 100px;
     border-radius: 50%;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px
+}
+.circle-designD {
+    background: #EB9D3A;
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px
+}
+.circle-designS {
+    background: #7CB06C;
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px
+}
+.circle-designH {
+    background: #00ABA9;
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 200px;
+    width: 200px
 }
