@@ -34,3 +34,10 @@ img {
     font-size: 48px;
     font-weight: bold;
 }
+
+.design-text {
+    background: #E6563B;
+    border: 2px solid white;
+    height: 100px;
+    border-radius: 50%;
+}
