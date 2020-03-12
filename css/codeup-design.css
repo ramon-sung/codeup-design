@@ -40,8 +40,9 @@ img {
     border: 12px solid white;
     height: 150px;
     width: 150px;
-    line-height: 165px;
+    line-height: 114px;
     font-weight: bolder;
+    font-size: 35px;
 }
 .circle-designD {
     background: #EB9D3A;
@@ -49,8 +50,9 @@ img {
     border: 12px solid white;
     height: 150px;
     width: 150px;
-    line-height: 165px;
+    line-height: 114px;
     font-weight: bolder;
+    font-size: 35px;
 }
 .circle-designS {
     background: #7CB06C;
@@ -58,8 +60,9 @@ img {
     border: 12px solid white;
     height: 150px;
     width: 150px;
-    line-height: 165px;
+    line-height: 114px;
     font-weight: bolder;
+    font-size: 35px;
 }
 .circle-designH {
     background: #00ABA9;
@@ -67,19 +70,21 @@ img {
     border: 12px solid white;
     height: 150px;
     width: 150px;
-    line-height: 165px;
+    line-height: 114px;
     font-weight: bolder;
+    font-size: 35px;
 }
 
 .selected-work {
-    font-size: 40px;
+    font-size: 28px;
 }
-.apple-ipad>img {
-    width: 500px;
-    height: 300px;
-}
+/*.apple-ipad>img {*/
+/*    display: block;*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
 .featured-pro {
-    font-size: 40px;
+    font-size: 28px;
 }
 .circle-d {
     background: #E6563B;
