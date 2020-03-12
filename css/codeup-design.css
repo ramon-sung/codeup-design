@@ -37,28 +37,40 @@ img {
 .circle-design {
     background: #E6563B;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 12px solid white;
     height: 200px;
-    width: 200px
+    width: 200px;
+    line-height: 165px;
+    font-weight: bolder;
 }
 .circle-designD {
     background: #EB9D3A;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 12px solid white;
     height: 200px;
-    width: 200px
+    width: 200px;
+    line-height: 165px;
+    font-weight: bolder;
 }
 .circle-designS {
     background: #7CB06C;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 12px solid white;
     height: 200px;
-    width: 200px
+    width: 200px;
+    line-height: 165px;
+    font-weight: bolder;
 }
 .circle-designH {
     background: #00ABA9;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 12px solid white;
     height: 200px;
-    width: 200px
+    width: 200px;
+    line-height: 165px;
+    font-weight: bolder;
+}
+
+.selected-work {
+    font-size: 40px;
 }
