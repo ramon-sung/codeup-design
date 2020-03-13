@@ -14,8 +14,13 @@ img {
     height: 10vh;
     margin-top: 50px;
 }
-nav {
+.nav {
     background-color: #E6E6E6;
+    font-size: 50px;
+}
+
+/*.nav-item {*/
+/*    font-size: 50px;*/
 }
 #navbarNav-mobile ul{
     background-color: red;
@@ -23,7 +28,8 @@ nav {
 }
 
 .nav-link {
-    font-size: 8px;
+    font-size: 13px;
+    color: black;
 }
 /*Ramon added text-center to get right font style and size*/
 .text-center {
@@ -36,10 +42,10 @@ nav {
 }
 
 /*Ramon added all below this comment to get the right text size and weight*/
-/*.visual-design {*/
-/*    font-size: 64px;*/
-/*    font-weight: bold;*/
-/*}*/
+.visual-design {
+    font-size: 33px;
+    font-weight: bold;
+
 
 .codeup-design {
     font-size: 48px;
@@ -50,9 +56,10 @@ nav {
 }
 
 .park-city {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: bold;
 }
+
 .circle-design {
     background: #E6563B;
     border-radius: 50%;
