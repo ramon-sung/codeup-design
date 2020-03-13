@@ -91,9 +91,6 @@
         <p class="visual-design col-12 text-center justify-center" style="width: 50rem;">VISUAL DESIGN & WEB DEVELOPMENT</p>
         <p class="park-city text-center justify-center">FROM PARK CITY, UTAH</p>
     </div>
-<!-- felt that those 4 circles are inside of first card so I added underneath card
-    https://getbootstrap.com/docs/4.0/layout/grid/#grid-options
-    -->
     <div class="container">
         <div class="row">
             <div class="col-6 col-xs-6 col-sm-3 col-md-3 col-lg-2 col-xl-2 text-center text-white p-2">
@@ -117,16 +114,16 @@
                 </div>
             </div>
         </div>
-        <p class="selected-work text-center justify-center ">SELECTED WORK</p>
+        <p class="selected-work text-center d-block d-md-none">SELECTED WORK</p>
 
-            <div class="featured-pic col-xs-12 col-sm-3 col-md-3 col-lg-2 col-xl-2">
+            <div class="featured-pic flex-wrap d-block d-md-none col-xs-12 col-sm-3 col-md-3 col-lg-2 col-xl-2">
                 <img src="img/apple-ipad.jpg" class="rounded col-12 mx-auto d-block" alt="#">
                 <footer class="footer-design p-4">
                     <div class="row">
-                        <div class="featured-pro col-6 font-weight-bold">
+                        <div class="featured-pro col-xs-8 pr-5 font-weight-bold">
                             FEATURED PROJECT
                         </div>
-                        <div class="col-6 row justify-content-end">
+                        <div class="col-xs-4 row  pl-5">
                             <div class="circle-d d-flex justify-content-center mx-auto d-block">
                                 D
                             </div>
@@ -143,6 +140,40 @@
                     </div>
                 </footer>
             </div>
+<!--        Medium screen d-none d-md-block  -->
+        <p class="selected-work-medium d-none d-md-block">SELECTED WORK</p>
+<!--        col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1 -->
+            <div class="row d-none d-md-block">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                    <img src="img/apple-ipad.jpg" class="rounded col-12 mx-auto d-block" alt="#">
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                    <img src="img/macbook.jpg" class="rounded col-12 mx-auto d-block" alt="#">
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                    <img src="img/man.jpg" class="rounded col-12 mx-auto d-block" alt="#">
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+                    <img src="img/security.jpg" class="rounded col-12 mx-auto d-block" alt="#">
+                </div>
+            </div>
+            <div class="row d-none d-md-block">
+                <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-1">
+
+                </div>
+            </div>
+
             <div class="featured-pic d-none d-sm-block col-sm-3 col-md-3 col-lg-2 col-xl-2">
                 <img src="img/macbook.jpg" class="rounded col-12 mx-auto d-block" alt="#">
                 <footer class="footer-design p-4">
@@ -150,8 +181,6 @@
                         <div class="featured-pro col-6 font-weight-bold">
                             FEATURED PROJECT
                         </div>
-<!--                        When I erase "col-6"
-it became row which we wanted. But cannot explain why... -->
                         <div class="row justify-content-end">
                             <div class="circle-d d-flex justify-content-center mx-auto d-block">
                                 D
