@@ -118,3 +118,7 @@ img {
     line-height: 18px;
     font-weight: bolder;
 }
+.featured-pic{
+    display: flex;
+    flex-direction: column;
+}
