@@ -1,6 +1,7 @@
 /*.container>span {*/
 /*    background-color: #E6E6E6;*/
 /*}*/
+
 body {
     font-family: 'Abel', sans-serif;
 }
@@ -9,7 +10,10 @@ img {
     height: 105px;
     width: 105px;
 }
-
+.navbar-header{
+    height: 10vh;
+    margin-top: 50px;
+}
 /*Ramon added text-center to get right font style and size*/
 .text-center {
     font-size: 48px;
@@ -120,5 +124,5 @@ img {
 }
 .featured-pic{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
